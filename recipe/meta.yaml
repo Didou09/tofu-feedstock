@@ -1,5 +1,5 @@
 {% set name = "tofu" %}
-{% set version = "1.8.6" %}
+{% set version = "1.8.7" %}
 {% set python_min = "3.8" %}
 {% set python_max = "3.11" %}
 
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 5f07447930acb004d07ffe97fbd03ae1ea77baac20f3a4dcd60ce2e405494a9e
+  sha256: 09f126ba6b29779a9f136ca9bd4ceecfab0123a16130fe87a6257c8adb47dc68
   
 build:
   number: 0
